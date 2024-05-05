@@ -31,7 +31,7 @@ export default function App() {
 
       {/* The second nested view is for displaying those goals */}
       <View style={styles.goalContainer}>
-        {courseGoals.map((goal) => <Text key={goal}>{goal}</Text>)}
+        {courseGoals.map((goal) => <Text style={styles.goalItem} key={goal}>{goal}</Text>)}
       </View>
     </View>
   );
@@ -63,4 +63,10 @@ const styles = StyleSheet.create({
   goalContainer:{
     flex:6
   },
+  goalItem: {
+    margin: 8,
+    padding: 8,
+    borderRadius: 6,
+    backgroundColor: '#fafafa',
+  }
 });
