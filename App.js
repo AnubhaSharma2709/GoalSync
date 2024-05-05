@@ -3,7 +3,9 @@ import { Button, StyleSheet, Text, TextInput, View } from 'react-native';
 export default function App() {
 
 
-  function goalInputhandler
+  function goalInputhandler(){};
+  function addGoalHandler(){};
+
   return (
     <View style={styles.appContainer}> 
       {/* The first nested view is for entering the goals */}
@@ -11,6 +13,7 @@ export default function App() {
         <TextInput 
           placeholder='Your Course Goal'
           style={styles.textInput}
+          onChangeText={goalInputhandler}
         />
         <Button title="Add Goal" />
       </View>
