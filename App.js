@@ -1,10 +1,16 @@
+import { useState } from 'react';
 import { Button, StyleSheet, Text, TextInput, View } from 'react-native';
 
 export default function App() {
 
+  const [enteredGoalText, setEnteredGoalText] = useState('');
 
-  function goalInputhandler(){};
-  function addGoalHandler(){};
+  function goalInputhandler(enteredText){
+    setEnteredGoalText(enteredText);
+  }
+  function addGoalHandler(){
+    console.log(enteredGoalText);
+  }
 
   return (
     <View style={styles.appContainer}> 
@@ -15,7 +21,8 @@ export default function App() {
           style={styles.textInput}
           onChangeText={goalInputhandler}
         />
-        <Button title="Add Goal" />
+        <Button title="Add Goal"
+        onPress={addGoalHandler} />
       </View>
 
       {/* The second nested view is for displaying those goals */}
