@@ -4,12 +4,16 @@ import { Button, StyleSheet, Text, TextInput, View } from 'react-native';
 export default function App() {
 
   const [enteredGoalText, setEnteredGoalText] = useState('');
+  const [courseGoals, setCourseGoal] = useState([]);
 
   function goalInputhandler(enteredText){
     setEnteredGoalText(enteredText);
   }
   function addGoalHandler(){
-    console.log(enteredGoalText);
+    setCourseGoal(currentCourseGoals => [
+      ...currentCourseGoals, 
+      enteredGoalText,
+    ]);
   }
 
   return (
@@ -27,7 +31,7 @@ export default function App() {
 
       {/* The second nested view is for displaying those goals */}
       <View style={styles.goalContainer}>
-        <Text>List of Goals</Text>
+        {courseGoals.map((goal) => <Text key={goal}>{goal}</Text>)}
       </View>
     </View>
   );
