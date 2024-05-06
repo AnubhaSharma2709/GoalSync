@@ -3,6 +3,7 @@ import { View,
     TextInput,
     Button,
     StyleSheet,
+    Modal,
 } from 'react-native';
 
 function GoalInput(props) {
@@ -18,6 +19,8 @@ function addGoalHandler(){
 }
 
     return(
+        <Modal visible={props.visible}
+        animationType='slide'>
         <View style={styles.inputContainer}>
         <TextInput
           placeholder="Your Course Goal"
@@ -27,6 +30,7 @@ function addGoalHandler(){
         />
         <Button title="Add Goal" onPress={addGoalHandler} />
       </View>
+      </Modal>
     );
 };
 export default GoalInput;
