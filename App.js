@@ -7,6 +7,7 @@ import {
   TextInput,
   View,
 } from "react-native";
+import { StatusBar } from "expo-status-bar";
 
 import GoalItem from "./components/GoalItem";
 import GoalInput from "./components/GoalInput";
@@ -44,6 +45,8 @@ export default function App() {
 
 
   return (
+    <>
+    <StatusBar style="dark"/>
     <View style={styles.appContainer}>
       <Button title="Add New Goal"  
       color="#C4A484"
@@ -69,6 +72,7 @@ export default function App() {
         />
       </View>
     </View>
+    </>
   );
 }
 
