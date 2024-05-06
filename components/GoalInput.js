@@ -56,7 +56,8 @@ const styles = StyleSheet.create({
         alignItems: "center",
         padding: 16,
         borderBottomWidth: 1,
-        borderBottomColor: "#cccccc",
+        backgroundColor: "#fffff7",
+        borderColor: "#fffff7",
       },
       // Styling the text input
       textInput: {
