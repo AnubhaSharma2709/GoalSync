@@ -6,11 +6,13 @@ import {
   Text,
   TextInput,
   View,
+  Image
 } from "react-native";
 import { StatusBar } from "expo-status-bar";
 
 import GoalItem from "./components/GoalItem";
 import GoalInput from "./components/GoalInput";
+import AppHeader from "./components/AppHeader";
 
 
 export default function App() {
@@ -45,9 +47,8 @@ export default function App() {
 
 
   return (
-    <>
-    <StatusBar style="dark"/>
     <View style={styles.appContainer}>
+      <AppHeader />
       <Button title="Add New Goal"  
       color="#C4A484"
       onPress={startAddGoalHandler}
@@ -72,7 +73,6 @@ export default function App() {
         />
       </View>
     </View>
-    </>
   );
 }
 
@@ -81,8 +81,6 @@ const styles = StyleSheet.create({
     flex: 1,
     paddingTop: 50,
     paddingHorizontal: 16,
-    borderColor: "#fffff7",
-    backgroundColor: "#fffff7",
   },
   goalContainer: {
     flex: 6,
