@@ -7,6 +7,8 @@ import { View,
     Image,
 
 } from 'react-native';
+import AppHeader from './AppHeader';
+import ProductivityText from './ProductivityText';
 
 function GoalInput(props) {
     const [enteredGoalText, setEnteredGoalText] = useState("");
@@ -24,9 +26,8 @@ function addGoalHandler(){
         <Modal visible={props.visible}
         animationType='slide'>
         <View style={styles.inputContainer}>
-            <Image
-            style={styles.image}
-             source={require('../assets/images/Goals.png')} />
+          <AppHeader />
+          <ProductivityText />
         <TextInput
           placeholder="Your Course Goal"
           style={styles.textInput}
@@ -52,14 +53,11 @@ export default GoalInput;
 const styles = StyleSheet.create({
     inputContainer: {
         flex: 1,
-        justifyContent: "center",
         alignItems: "center",
-        padding: 16,
-        borderBottomWidth: 1,
-        backgroundColor: "#fffff7",
-        borderColor: "#fffff7",
+        paddingTop: 12,
+        backgroundColor: "#ffffff",
+        borderColor: "#ffffff",
       },
-      // Styling the text input
       textInput: {
         borderWidth: 1,
         borderColor: "#cccccc",

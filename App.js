@@ -58,10 +58,12 @@ export default function App() {
       />
       </View>
       </View>
+
       <GoalInput visible={modalIsVisible}
       onAddGoal={addGoalHandler} 
       onCancel={endGoalHandler}
       />
+      
       <View style={styles.goalContainer}>
         <FlatList
           data={courseGoals}
