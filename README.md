@@ -1,18 +1,14 @@
 
 # GoalSync
-
 GoalSync is a simple React Native mobile application designed to help you daily plan your day and boost your productivity. With a seamless and attractive UI design, GoalSync allows you to add and delete goals effortlessly.
 
-
-
 ## Features
-
 - Adding a new goal: Easily add new goals to your daily plan.
 - Deleting a goal: Simply tap on a goal to delete it from your list.
 - Simple and Friendly UI
 
 ## Demo
-https://github.com/AnubhaSharma2709/GoalSync/blob/master/assets/UI/AppVideo.mp4
+<iframe width="560" height="315" src="https://drive.google.com/uc?export=download&id=1yBSRngqtbcPPoa1tVO4QhhYmgQ0FKyTw" frameborder="0" allowfullscreen></iframe>
 
 ## Figma UI Link
 https://www.figma.com/file/2X7B7ycrznsVppGkTQRD1F/GoalSync?type=design&node-id=0%3A1&mode=design&t=8tW2iDelssDJiLlU-1
