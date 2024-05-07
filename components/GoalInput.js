@@ -36,11 +36,15 @@ function addGoalHandler(){
         />
         <View style={styles.buttonContainer}>
         <View style={styles.button}>
-            <Button title="Add Goal" onPress={addGoalHandler} />
+            <Button 
+            color="#333333"
+            title="Add Goal" onPress={addGoalHandler} />
         </View>
 
         <View style={styles.button}>
-            <Button title="Cancel" onPress={props.onCancel} />
+            <Button 
+            color="#D03d56"
+            title="Cancel" onPress={props.onCancel} />
         </View>
 
         </View>                                                          
@@ -55,8 +59,6 @@ const styles = StyleSheet.create({
         flex: 1,
         alignItems: "center",
         paddingTop: 12,
-        backgroundColor: "#ffffff",
-        borderColor: "#ffffff",
       },
       textInput: {
         borderWidth: 1,
@@ -71,7 +73,7 @@ const styles = StyleSheet.create({
       },
       button: {
         width: '40%',
-        marginHorizontal: 8
+        marginHorizontal: 8,
       },
       image: {
         width: 100,

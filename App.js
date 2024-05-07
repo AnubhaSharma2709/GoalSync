@@ -63,7 +63,7 @@ export default function App() {
       onAddGoal={addGoalHandler} 
       onCancel={endGoalHandler}
       />
-      
+
       <View style={styles.goalContainer}>
         <FlatList
           data={courseGoals}

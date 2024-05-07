@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, StyleSheet, Image, Text } from 'react-native';
+import { View, StyleSheet, Image, Text} from 'react-native';
 
 export default function AppDec() {
   return(
@@ -52,7 +52,6 @@ const styles = StyleSheet.create({
     }, 
     boxStyle:{
       backgroundColor:"#EAFFF0",
-      height: 200,
       padding: 12,
       borderRadius: 10,
       margin: 8,
