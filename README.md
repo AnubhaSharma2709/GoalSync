@@ -29,7 +29,7 @@ To get started with GoalSync:
 
 ## Screenshots
 
-![App Screenshot](https://github.com/AnubhaSharma2709/GoalSync/blob/master/assets/UI/HomeScreen.png?raw=true)
+<img src="https://github.com/AnubhaSharma2709/GoalSync/blob/master/assets/UI/HomeScreen.png?raw=true" alt="App Screenshot" width="300" height="600">
 
-![App Screenshot](https://github.com/AnubhaSharma2709/GoalSync/blob/master/assets/UI/HomeScreen-1.png?raw=true)
+<img src="https://github.com/AnubhaSharma2709/GoalSync/blob/master/assets/UI/HomeScreen-1.png?raw=true" alt="App Screenshot" width="300" height="600">
 
