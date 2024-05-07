@@ -29,7 +29,8 @@ To get started with GoalSync:
 
 ## Screenshots
 
-<img src="https://github.com/AnubhaSharma2709/GoalSync/blob/master/assets/UI/HomeScreen.png?raw=true" alt="App Screenshot" width="300" height="600">
-
-<img src="https://github.com/AnubhaSharma2709/GoalSync/blob/master/assets/UI/HomeScreen-1.png?raw=true" alt="App Screenshot" width="300" height="600">
+<div style="display: flex;">
+  <img src="https://github.com/AnubhaSharma2709/GoalSync/blob/master/assets/UI/HomeScreen.png?raw=true" alt="App Screenshot" width="300" height="600" style="margin-right: 20px;">
+  <img src="https://github.com/AnubhaSharma2709/GoalSync/blob/master/assets/UI/HomeScreen-1.png?raw=true" alt="App Screenshot" width="300" height="600">
+</div>
 
