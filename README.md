@@ -8,8 +8,7 @@ GoalSync is a simple React Native mobile application designed to help you daily 
 - Simple and Friendly UI
 
 ## Demo
-<iframe width="560" height="315" src="https://drive.google.com/uc?export=download&id=1yBSRngqtbcPPoa1tVO4QhhYmgQ0FKyTw" frameborder="0" allowfullscreen></iframe>
-
+  <img src="https://github.com/AnubhaSharma2709/GoalSync/blob/master/assets/UI/HomeScreen.png?raw=true" alt="App Screenshot" width="300" height="600" style="margin-right: 20px;">
 ## Figma UI Link
 https://www.figma.com/file/2X7B7ycrznsVppGkTQRD1F/GoalSync?type=design&node-id=0%3A1&mode=design&t=8tW2iDelssDJiLlU-1
 
