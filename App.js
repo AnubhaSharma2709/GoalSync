@@ -13,6 +13,7 @@ import { StatusBar } from "expo-status-bar";
 import GoalItem from "./components/GoalItem";
 import GoalInput from "./components/GoalInput";
 import AppHeader from "./components/AppHeader";
+import AppDec from "./components/AppDec";
 
 
 export default function App() {
@@ -49,6 +50,7 @@ export default function App() {
   return (
     <View style={styles.appContainer}>
       <AppHeader />
+      <AppDec />
       <Button title="Add New Goal"  
       color="#C4A484"
       onPress={startAddGoalHandler}
