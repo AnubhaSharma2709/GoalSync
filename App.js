@@ -44,17 +44,20 @@ export default function App() {
     });
   }
 
-
-
-
   return (
     <View style={styles.appContainer}>
       <AppHeader />
       <AppDec />
-      <Button title="Add New Goal"  
-      color="#C4A484"
+      <View style={styles.planContainer}>
+        <Text style={styles.planText}>Today's Planning</Text>
+      <View style={styles.buttonStyles}> 
+      <Button 
+      title="Add New Goal"  
+      color="#333333"
       onPress={startAddGoalHandler}
       />
+      </View>
+      </View>
       <GoalInput visible={modalIsVisible}
       onAddGoal={addGoalHandler} 
       onCancel={endGoalHandler}
@@ -87,4 +90,19 @@ const styles = StyleSheet.create({
   goalContainer: {
     flex: 6,
   },
+  planContainer:{
+    flexDirection: "row",
+  },
+  buttonStyles:{
+    alignContent: "space-around",
+    alignItems: "center",
+    margin: 8,
+  },
+  planText: {
+    paddingTop: 4,
+    color: "#333333",
+    fontSize: 21,
+    fontWeight: "800",
+    margin: 8
+  }
 });
